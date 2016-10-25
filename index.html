@@ -573,8 +573,8 @@ and open the template in the editor.
 					var s3_v = Math.pow(1 - (s3_per / 100), s3_cnt);
 					var s4_v = Math.pow(1 - (s4_per / 100), s4_cnt);
 					var s5_v = Math.pow(1 - (s5_per / 100), s5_cnt);
-					var s6_v = Math.pow(1 - (s6_per / 100), s6_cnt);
-					var s_v = s1_v * s2_v * s3_v * s4_v * s5_v * s6_v;
+                                        var s6_v = Math.pow(1 - (s6_per / 100), s6_cnt);
+					var s_v = s1_v * s2_v * s3_v * s4_v * s5_v* s6_v;
 					$("#skill_check_res span").html(Math.floor((1 - s_v) * 100) + '%');
 					return false;
 				});
@@ -625,11 +625,7 @@ and open the template in the editor.
 		</div>
 
 
-		<div class="container">
-			<div class="row">
 				<h2>防衛デッキHP調整@刻のイシュタリア</h2>
-			</div>
-		</div>
 
 		<div class="container">
 			<div class="row">
@@ -925,6 +921,7 @@ and open the template in the editor.
 			<div class="row">
 				<div class="col-md-12" style="padding: 0 5px;">
 					<ul style="margin: 0;padding-left: 20px;list-style: decimal;">
+						<li><a href="http://blog.livedoor.jp/shitserver/">ノーリロ様</a>にリンクを置いてもらっていますが、<a href="http://blog.livedoor.jp/shitserver/">ノーリロ</a>管理者様と当ツール作成者、及び編集者は異なります。<a href="http://blog.livedoor.jp/shitserver/">ノーリロ様</a>へのお問い合わせはお控え下さい。何かあれば刻のイシュタリア内の有栖までご一報ください。</li>
 						<li>当サイトはJavascript及びCookieを利用しています。Javascript及びCookieまたはその一部が利用できない場合、正常に利用できない場合があります。Cookieの有効期限は365日になります。</li>
 						<li>利用の結果生じた損害について、一切責任を負いません。</li>
 						<li>あなたの適用される法令に照らして、本サイトの利用が合法であることを保証しません。</li>
@@ -939,7 +936,9 @@ and open the template in the editor.
 		<section class="container" id="attention" style="margin-top: 20px;">
 			<div class="row">
 				<div class="col-md-12" style="margin-top: 30px;">
-					<p>当ツールは、諸事情により前作成者がメンテナンスできなくなった為、GNU Free Documentation Licenseに基づく改変・再利用の許可より<a href="https://twitter.com/Alice_ish" target="_blank">有栖おじさん</a>が勝手に引き継いだものです。サポートやご意見はみーむ様ではなく有栖おじさんまでお願い致します。また、ソースコードは<a href="https://github.com/Alice-ish/reconquista" target="_blank">こちら</a>よりご参照下さいませ。</p>
+					<p style="text-align: center;">&copy; <a href="https://twitter.com/beek_jp" target="_blank">みーむ</a>.</p><br>
+当ツールは、諸事情により前作成者がメンテナンスできなくなった為、GNU Free Documentation Licenseに基づく改変・再利用の許可より<a href="https://twitter.com/Alice_ish" target="_blank">有栖おじさん</a>が勝手に引き継いだものです。
+サポートやご意見はみーむ様ではなく有栖おじさんまでお願い致します。また、ソースコードは<a href="https://github.com/Alice-ish/reconquista" target="_blank">こちら</a>よりご参照下さいませ。
 				</div>
 			</div>
 		</section>
